@@ -2,7 +2,7 @@ import "./FooterStyles.css"
 
 import React from 'react'
 import { FaLinkedin, FaTwitter, FaFacebook, FaHome, FaMailBulk, FaPhone } from "react-icons/fa"
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 const Footer = () => {
   return (
     <div className="footer">
@@ -28,9 +28,9 @@ const Footer = () => {
             </div>
             <div className="right">
                 <h4>About the company</h4>
-                <p>This is me ashd asd. kajsd 
-                    hjadkjhdahhdhdh dsjdshd
-                    ahdjklshkajshakjhdkjhdsa</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                
+                </p>
                 <div className="social">
                 <FaFacebook
                     size={30}
@@ -47,8 +47,9 @@ const Footer = () => {
                     style={{color:"white",
                     marginRight:"1rem"}}
                     />
+                    <i class="fa fa-linkedin"></i>
                 </div>
-            </div>
+            </div><i class="fa fa-linkedin"></i>
         </div>
     </div>
   )
