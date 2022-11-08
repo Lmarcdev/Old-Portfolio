@@ -42,7 +42,7 @@
     text-transform: uppercase;
 }
 .hero .content h2{
-    font-size: 1.4rem;
+    font-size: 2.1rem;
     font-weight: 200;
 }
 .content .btn{
@@ -56,6 +56,6 @@
         font-size: 1.4rem;
     }
     .hero .content h2{
-        font-size: 1.1rem;
+        font-size: 2.1rem;
     }
 }
